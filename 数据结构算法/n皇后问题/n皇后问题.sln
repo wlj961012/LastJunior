@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2024
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "n皇后问题", "n皇后问题\n皇后问题.vcxproj", "{E0068BC3-F532-45B0-9438-429CA98F1D29}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E0068BC3-F532-45B0-9438-429CA98F1D29}.Debug|x64.ActiveCfg = Debug|x64
+		{E0068BC3-F532-45B0-9438-429CA98F1D29}.Debug|x64.Build.0 = Debug|x64
+		{E0068BC3-F532-45B0-9438-429CA98F1D29}.Debug|x86.ActiveCfg = Debug|Win32
+		{E0068BC3-F532-45B0-9438-429CA98F1D29}.Debug|x86.Build.0 = Debug|Win32
+		{E0068BC3-F532-45B0-9438-429CA98F1D29}.Release|x64.ActiveCfg = Release|x64
+		{E0068BC3-F532-45B0-9438-429CA98F1D29}.Release|x64.Build.0 = Release|x64
+		{E0068BC3-F532-45B0-9438-429CA98F1D29}.Release|x86.ActiveCfg = Release|Win32
+		{E0068BC3-F532-45B0-9438-429CA98F1D29}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EA3C1BB2-B2E2-480D-8C76-2E546AC0F7B2}
+	EndGlobalSection
+EndGlobal

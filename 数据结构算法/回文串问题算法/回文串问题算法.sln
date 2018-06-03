@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2024
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "回文串问题算法", "回文串问题算法\回文串问题算法.vcxproj", "{F9E9E951-D45D-4035-B98C-B557EF9F970E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F9E9E951-D45D-4035-B98C-B557EF9F970E}.Debug|x64.ActiveCfg = Debug|x64
+		{F9E9E951-D45D-4035-B98C-B557EF9F970E}.Debug|x64.Build.0 = Debug|x64
+		{F9E9E951-D45D-4035-B98C-B557EF9F970E}.Debug|x86.ActiveCfg = Debug|Win32
+		{F9E9E951-D45D-4035-B98C-B557EF9F970E}.Debug|x86.Build.0 = Debug|Win32
+		{F9E9E951-D45D-4035-B98C-B557EF9F970E}.Release|x64.ActiveCfg = Release|x64
+		{F9E9E951-D45D-4035-B98C-B557EF9F970E}.Release|x64.Build.0 = Release|x64
+		{F9E9E951-D45D-4035-B98C-B557EF9F970E}.Release|x86.ActiveCfg = Release|Win32
+		{F9E9E951-D45D-4035-B98C-B557EF9F970E}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D7FD032E-340C-44FE-BCCF-456D21395F89}
+	EndGlobalSection
+EndGlobal

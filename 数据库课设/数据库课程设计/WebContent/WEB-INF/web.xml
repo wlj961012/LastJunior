@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>SqlPro</display-name>
+  
+  <welcome-file-list> 
+    <welcome-file>login2.jsp</welcome-file>
+    </welcome-file-list>
+  
+  
+  <servlet>  
+    <servlet-name>searchproinfoServlet</servlet-name>  
+    <servlet-class>com.servlet.searchproinfoServlet</servlet-class>  
+  </servlet>  
+  <servlet-mapping>  
+    <servlet-name>searchproinfoServlet</servlet-name>  
+    <url-pattern>/searchproinfoServlet</url-pattern>  
+  </servlet-mapping> 
+  
+  <servlet>  
+    <servlet-name>searchstoreinfoServlet</servlet-name>  
+    <servlet-class>com.servlet.searchstoreinfoServlet</servlet-class>  
+  </servlet>  
+  <servlet-mapping>  
+    <servlet-name>searchstoreinfoServlet</servlet-name>  
+    <url-pattern>/searchstoreinfoServlet</url-pattern>  
+  </servlet-mapping> 
+  
+  <servlet>  
+    <servlet-name>SearchcrinfoServlet</servlet-name>  
+    <servlet-class>com.servlet.SearchcrinfoServlet</servlet-class>  
+  </servlet>  
+  <servlet-mapping>  
+    <servlet-name>SearchcrinfoServlet</servlet-name>  
+    <url-pattern>/SearchcrinfoServlet</url-pattern>  
+  </servlet-mapping> 
+  
+  <servlet>  
+    <servlet-name>AddproinfoServlet</servlet-name>  
+    <servlet-class>com.servlet.AddproinfoServlet</servlet-class>  
+  </servlet>  
+  <servlet-mapping>  
+    <servlet-name>AddproinfoServlet</servlet-name>  
+    <url-pattern>/AddproinfoServlet</url-pattern>  
+  </servlet-mapping> 
+  
+  <servlet>  
+    <servlet-name>AddcrinfoServlet</servlet-name>  
+    <servlet-class>com.servlet.AddcrinfoServlet</servlet-class>  
+  </servlet>  
+  <servlet-mapping>  
+    <servlet-name>AddcrinfoServlet</servlet-name>  
+    <url-pattern>/AddcrinfoServlet</url-pattern>  
+  </servlet-mapping> 
+  
+  <servlet>  
+    <servlet-name>Addcrinfo2Servlet</servlet-name>  
+    <servlet-class>com.servlet.Addcrinfo2Servlet</servlet-class>  
+  </servlet>  
+  <servlet-mapping>  
+    <servlet-name>Addcrinfo2Servlet</servlet-name>  
+    <url-pattern>/Addcrinfo2Servlet</url-pattern>  
+  </servlet-mapping> 
+  
+  <servlet>  
+    <servlet-name>UpdateproinfoServlet</servlet-name>  
+    <servlet-class>com.servlet.UpdateproinfoServlet</servlet-class>  
+  </servlet>  
+  <servlet-mapping>  
+    <servlet-name>UpdateproinfoServlet</servlet-name>  
+    <url-pattern>/UpdateproinfoServlet</url-pattern>  
+  </servlet-mapping>
+  
+   <servlet>  
+    <servlet-name>DeleteproinfoServlet</servlet-name>  
+    <servlet-class>com.servlet.DeleteproinfoServlet</servlet-class>  
+  </servlet>  
+  <servlet-mapping>  
+    <servlet-name>DeleteproinfoServlet</servlet-name>  
+    <url-pattern>/DeleteproinfoServlet</url-pattern>  
+  </servlet-mapping>
+  
+  <servlet>  
+    <servlet-name>CrcountServlet</servlet-name>  
+    <servlet-class>com.servlet.CrcountServlet</servlet-class>  
+  </servlet>  
+  <servlet-mapping>  
+    <servlet-name>CrcountServlet</servlet-name>  
+    <url-pattern>/CrcountServlet</url-pattern>  
+  </servlet-mapping>
+  
+  <servlet>  
+    <servlet-name>KucuntongjiServlet</servlet-name>  
+    <servlet-class>com.servlet.KucuntongjiServlet</servlet-class>  
+  </servlet>  
+  <servlet-mapping>  
+    <servlet-name>KucuntongjiServlet</servlet-name>  
+    <url-pattern>/KucuntongjiServlet</url-pattern>  
+  </servlet-mapping>
+  
+  
+</web-app>
